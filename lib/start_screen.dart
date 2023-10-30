@@ -17,9 +17,7 @@ import 'package:second_quiz/online/widgets/login_screen/on_login_screen.dart';
 // import 'package:second_quiz/quiz_screen.dart';
 
 class StartScreen extends StatefulWidget {
-  const StartScreen(/* this.startQuiz ,*/ {super.key});
-
-  // final void Function() startQuiz;
+  const StartScreen({super.key});
 
   @override
   State<StartScreen> createState() => _StartScreenState();
@@ -29,41 +27,18 @@ class _StartScreenState extends State<StartScreen>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller; // ANIMATION
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   _controller = AnimationController(
-  //     // ANIMATION
-  //     duration: const Duration(seconds: 2),
-  //     vsync: this,
-  //   );
-  //   _controller.repeat(reverse: true);
-  //   // play();
-  // }
-
-  // play () async {
-
-  // }
-
   Future<bool> checkConnectivity() async {
     var connectivityResult = await (Connectivity().checkConnectivity());
     if (connectivityResult == ConnectivityResult.mobile ||
         connectivityResult == ConnectivityResult.wifi) {
       return true;
     } else {
-      // Нет подключения к Интернету
       return false;
     }
   }
 
   @override
   void dispose() {
-    // _controller.dispose(); // ANIMATION
-
-    // Player player = Provider.of<Player>(context);
-    // player.disposePlayer();
-    // player.dispose();
-
     super.dispose();
   }
 
@@ -84,10 +59,7 @@ class _StartScreenState extends State<StartScreen>
               Flexible(
                 flex: 3,
                 child: Image.asset(
-                  // "assets/images/quiz-logo.png",
                   "assets/images/logo.png",
-                  // width: 300,
-                  // color: const Color.fromARGB(125, 255, 255, 255),
                 ),
               ),
               const SizedBox(
@@ -173,23 +145,6 @@ class _StartScreenState extends State<StartScreen>
                                 }
                               },
                             );
-
-                            // StreamBuilder<User?>(
-                            //   stream: FirebaseAuth.instance.authStateChanges(),
-                            //   builder: (context, snapshot) {
-                            //     if (snapshot.hasError) {
-                            //       print(snapshot.error);
-                            //       return Container();
-                            //     }
-                            //     if (snapshot.data != null) {
-                            //       return const OnGroupScreen();
-                            //     } else {
-                            //       AuthServices().signInAsAnonymous();
-                            //       return const OnGroupScreen();
-                            //       // return const OnLoginScreen();
-                            //     }
-                            //   },
-                            // );
                           }));
                         } else {
                           Dialogs.noInternetConnection(context);
