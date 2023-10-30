@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "678475835998",
+    "firebase_url": "https://orientkurs-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "orientkurs",
+    "storage_bucket": "orientkurs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678475835998:android:c340715971403c9cf5a2cf",
+        "android_client_info": {
+          "package_name": "com.example.second_quiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678475835998-iuj155mli0ibjpnfoc5acjh29pik6u6b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.second_quiz",
+            "certificate_hash": "e2e7ac591dc6304da1c7b38ecf8c964a45222979"
+          }
+        },
+        {
+          "client_id": "678475835998-1ua0pnkcklk16qn5e1h2on34l46p72at.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa7HPiv2XP9BPVWfEDEixxuITd5ginkeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678475835998-1ua0pnkcklk16qn5e1h2on34l46p72at.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678475835998:android:f6c45085658c50eff5a2cf",
+        "android_client_info": {
+          "package_name": "com.ganeshamastery.orientkurs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678475835998-1ua0pnkcklk16qn5e1h2on34l46p72at.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa7HPiv2XP9BPVWfEDEixxuITd5ginkeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678475835998-1ua0pnkcklk16qn5e1h2on34l46p72at.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

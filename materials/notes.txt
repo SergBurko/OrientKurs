@@ -1,0 +1,2 @@
+android:label="second_quiz"
+        android:name="${applicationName}"

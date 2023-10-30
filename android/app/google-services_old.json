@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "678475835998",
+    "project_id": "orientkurs",
+    "storage_bucket": "orientkurs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678475835998:android:c340715971403c9cf5a2cf",
+        "android_client_info": {
+          "package_name": "com.example.second_quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa7HPiv2XP9BPVWfEDEixxuITd5ginkeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
